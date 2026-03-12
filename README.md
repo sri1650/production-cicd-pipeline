@@ -1,3 +1,4 @@
+![CI/CD Pipeline](https://github.com/sri1650/production-cicd-pipeline/actions/workflows/ci-cd.yml/badge.svg)
 ![AWS](https://img.shields.io/badge/AWS-Cloud-orange)
 ![Terraform](https://img.shields.io/badge/Terraform-IaC-purple)
 ![Docker](https://img.shields.io/badge/Docker-Container-blue)
@@ -63,3 +64,6 @@ Kubernetes -->|runs| Application
 5. Terraform provisions infrastructure on AWS.
 6. Kubernetes deploys the application.
 7. Monitoring tools observe the application performance.
+## Pipeline Status
+
+This project uses GitHub Actions to automatically build and push a Docker image to Docker Hub on every push to the main branch.
