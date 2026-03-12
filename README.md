@@ -55,4 +55,3 @@ Terraform -->|create infrastructure| AWS
 Kubernetes -->|runs| Application
 ```
 
-![Architecture](architecture.png)
