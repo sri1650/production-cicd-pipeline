@@ -42,6 +42,22 @@ See the system architecture here:
 [View Architecture Diagram](./architecture.md)
 ## Architecture
 
-This project demonstrates a production-style CI/CD pipeline deploying containerized applications to Kubernetes using Terraform and GitHub Actions.
+```mermaid
+flowchart LR
+
+Developer -->|git push| GitHub
+
+GitHub -->|trigger| GitHubActions
+
+GitHubActions -->|build image| Docker
+
+Docker -->|push image| ContainerRegistry
+
+ContainerRegistry -->|deploy| Kubernetes
+
+Terraform -->|create infrastructure| AWS
+
+Kubernetes -->|runs| Application
+```
 
 ![Architecture](architecture.png)
