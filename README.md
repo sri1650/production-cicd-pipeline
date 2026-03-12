@@ -75,4 +75,7 @@ This project is deployed locally on Kubernetes using Docker Desktop.
 ```bash
 kubectl apply -f kubernetes/deployment.yaml
 kubectl apply -f kubernetes/service.yaml
+http://localhost:31920
 ```
+### Access the app
+http://localhost:31920
