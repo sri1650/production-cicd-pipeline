@@ -1,3 +1,11 @@
+![AWS](https://img.shields.io/badge/AWS-Cloud-orange)
+![Terraform](https://img.shields.io/badge/Terraform-IaC-purple)
+![Docker](https://img.shields.io/badge/Docker-Container-blue)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-Orchestration-blue)
+![GitHub Actions](https://img.shields.io/badge/GitHub-Actions-black)
+![CI/CD](https://img.shields.io/badge/CI/CD-Automation-green)
+
+# Production CI/CD Pipeline
 # Production CI/CD Pipeline
 
 A production-style CI/CD pipeline project using GitHub Actions and Docker.
