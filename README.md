@@ -54,4 +54,12 @@ Terraform -->|create infrastructure| AWS
 
 Kubernetes -->|runs| Application
 ```
+## DevOps Workflow
 
+1. Developer pushes code to GitHub repository.
+2. GitHub Actions triggers the CI/CD pipeline.
+3. Application is built and containerized using Docker.
+4. Docker image is pushed to the container registry.
+5. Terraform provisions infrastructure on AWS.
+6. Kubernetes deploys the application.
+7. Monitoring tools observe the application performance.
