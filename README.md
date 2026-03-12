@@ -27,3 +27,8 @@ This project demonstrates how code can be automatically built, tested, container
 - Add Kubernetes deployment
 - Add Terraform infrastructure
 - Add monitoring integration
+## Architecture
+
+See the system architecture here:
+
+[View Architecture Diagram](./architecture.md)
