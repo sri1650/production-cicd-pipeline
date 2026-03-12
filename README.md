@@ -77,3 +77,13 @@ kubectl apply -f kubernetes/deployment.yaml
 kubectl apply -f kubernetes/service.yaml
 http://localhost:31920
 ```
+## Local Kubernetes Deployment
+
+### Apply Kubernetes resources
+
+```bash
+kubectl apply -f kubernetes/deployment.yaml
+kubectl apply -f kubernetes/service.yaml
+./deploy.sh
+http://localhost:31920
+```
