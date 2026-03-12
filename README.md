@@ -66,3 +66,13 @@ Kubernetes -->|runs| Application
 ## Pipeline Status
 
 This project uses GitHub Actions to automatically build and push a Docker image to Docker Hub on every push to the main branch.
+
+## Kubernetes Deployment
+
+This project is deployed locally on Kubernetes using Docker Desktop.
+
+### Deployment
+```bash
+kubectl apply -f kubernetes/deployment.yaml
+kubectl apply -f kubernetes/service.yaml
+```
