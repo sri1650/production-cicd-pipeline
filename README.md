@@ -40,3 +40,8 @@ This project demonstrates how code can be automatically built, tested, container
 See the system architecture here:
 
 [View Architecture Diagram](./architecture.md)
+## Architecture
+
+This project demonstrates a production-style CI/CD pipeline deploying containerized applications to Kubernetes using Terraform and GitHub Actions.
+
+![Architecture](architecture.png)
