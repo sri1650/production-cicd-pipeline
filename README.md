@@ -7,7 +7,6 @@
 ![CI/CD](https://img.shields.io/badge/CI/CD-Automation-green)
 
 # Production CI/CD Pipeline
-# Production CI/CD Pipeline
 
 A production-style CI/CD pipeline project using GitHub Actions and Docker.
 
