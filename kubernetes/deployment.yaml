@@ -13,7 +13,8 @@ spec:
         app: devops-app
     spec:
       containers:
-      - name: devops-app
-        image: sri1650/devops-app:latest
-        ports:
-        - containerPort: 5000
+        - name: devops-app
+          image: sri1650/devops-app:latest
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 5000
